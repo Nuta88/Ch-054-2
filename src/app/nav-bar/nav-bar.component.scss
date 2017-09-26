@@ -19,7 +19,7 @@ $full-width:100%;
     }
     .nav-item {
         a{color:$color-wh;}
-        a:hover{color:$color-wh; text-shadow: 1px 1px 2px $color-wh;}
+        a:hover{color:$color-wh; text-shadow: 0.0625rem 0.0625rem 0.125rem $color-wh;}
     }
     .input{@include bgColor($color-grey, $color-wh);
     }
@@ -27,8 +27,7 @@ $full-width:100%;
     }
     .button-submit:hover{@include bgColor(rgb(38,41,45), $color-wh);
     }
-     + .backg-nav{height: 600px;; width: 100%;  background-size: cover; margin-top: 77px;}  
-    // + .backg-nav{height: 37.5rem;}     
+     + .backg-nav{height: 37.5rem; width: 100%;  background-size: cover; margin-top: 4.813rem;}     
 }
 
 
