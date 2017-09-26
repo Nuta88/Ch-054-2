@@ -14,7 +14,7 @@ import { FooterComponent } from './footer/footer.component';
     SpecificEventComponent,
     FooterComponent
   ], 
-  imports: [
+  imports: [ 
     BrowserModule
   ],
   providers: [],
