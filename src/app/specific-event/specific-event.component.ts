@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./specific-event.component.scss']
 })
 export class SpecificEventComponent implements OnInit {
+  background={link:"/assets/images/1.png"}
   constructor() { }
 
   ngOnInit() {
