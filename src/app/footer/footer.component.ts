@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
-  background={link:"/assets/images/imgFooter.jpg"}
+  background={link:"/assets/images/imgFooter.jpeg"}
   constructor() { }
 
   ngOnInit() {
