@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SpecificEventComponent implements OnInit {
   background={link:"/assets/images/1.png"}
+  bgLocation={link:"/assets/images/bg-location.png"}
   constructor() { }
 
   ngOnInit() {
